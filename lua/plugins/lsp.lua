@@ -28,6 +28,19 @@ return {
             ensure_installed = { "lua_ls", "pyright", "bashls", "gopls" }, -- Add your languages here
             handlers = {
                 lsp.default_setup,
+                pyright = function()
+                    lsp.configure("pyright", {
+                        settings = {
+                            python = {
+                                pythonPath = "/home/ryan/anaconda3/envs/qemy/bin/python",
+                                analysis = {
+                                    autoSearchPaths = true,
+                                    useLibraryCodeForTypes = true,
+                                },
+                            }
+                        }
+                    })
+                end,
                 lua_ls = function()
                     lsp.configure("lua_ls", {
                         settings = {
