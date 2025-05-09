@@ -32,7 +32,7 @@ return {
                     lsp.configure("pyright", {
                         settings = {
                             python = {
-                                pythonPath = "/home/ryan/anaconda3/envs/qemy/bin/python",
+                                pythonPath = "/home/homepi/miniforge3/envs/qemy/bin/python",
                                 analysis = {
                                     autoSearchPaths = true,
                                     useLibraryCodeForTypes = true,
