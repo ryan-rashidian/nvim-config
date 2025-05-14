@@ -36,6 +36,9 @@ return {
                                 analysis = {
                                     autoSearchPaths = true,
                                     useLibraryCodeForTypes = true,
+                                    diagnosticMode = "workspace",
+                                    typeCheckingMode = "basic",
+                                    extraPaths = { "/home/homepi/miniforge3/envs/qemy/lib/python3.13/site-package" },
                                 },
                             }
                         }
