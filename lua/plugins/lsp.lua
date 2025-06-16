@@ -22,23 +22,22 @@ return {
 
         lsp.setup()
 
-        -- Mason Setup (Optional: UI for installing LSPs)
         require("mason").setup()
         require("mason-lspconfig").setup({
-            ensure_installed = { "lua_ls", "pyright", "bashls", "gopls" }, -- Add your languages here
+            ensure_installed = { "lua_ls", "pyright", "bashls", "gopls" },
             handlers = {
                 lsp.default_setup,
                 pyright = function()
                     lsp.configure("pyright", {
                         settings = {
                             python = {
-                                pythonPath = "/home/homepi/miniforge3/envs/qemy/bin/python",
+                                pythonPath = "/home/ryan/venvs/qemy/bin/python",
                                 analysis = {
                                     autoSearchPaths = true,
                                     useLibraryCodeForTypes = true,
                                     diagnosticMode = "workspace",
                                     typeCheckingMode = "basic",
-                                    extraPaths = { "/home/homepi/miniforge3/envs/qemy/lib/python3.13/site-package" },
+                                    extraPaths = { "/home/ryan/venvs/qemy/lib/python3.12/site-packages" },
                                 },
                             }
                         }

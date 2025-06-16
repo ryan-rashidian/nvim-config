@@ -10,6 +10,8 @@ map("v", "<A-j>", ":m '>+1<CR>gv=gv")
 map("v", "<A-k>", ":m '<-2<CR>gv=gv")
 map("n", "<Tab>", ":bnext<CR>")
 map("n", "<S-Tab>", ":bprev<CR>")
+map("n", "<leader>rn", vim.lsp.buf.rename, { buffer = bufnr, desc = "Rename symbol" })
+
 
 -- telescope keymaps
 

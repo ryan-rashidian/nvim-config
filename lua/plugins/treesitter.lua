@@ -15,7 +15,6 @@ return {
         "vim",
         "go",
         "json",
-        -- add any others you frequently use
       },
       highlight = {
         enable = true,
