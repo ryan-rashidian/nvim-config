@@ -37,7 +37,7 @@ return {
                                     useLibraryCodeForTypes = true,
                                     diagnosticMode = "workspace",
                                     typeCheckingMode = "basic",
-                                    extraPaths = { "/home/ryan/venvs/qemy/lib/python3.12/site-packages" },
+                                    extraPaths = { "./stubs"},
                                 },
                             }
                         }
