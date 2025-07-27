@@ -24,7 +24,17 @@ return {
 
         require("mason").setup()
         require("mason-lspconfig").setup({
-            ensure_installed = { "lua_ls", "pyright", "bashls", "gopls" },
+            ensure_installed = {
+                "pyright",
+                "clangd",
+                "bashls",
+                "jsonls",
+                "lua_ls",
+                "html",
+                "cssls",
+                "emmet_ls",
+                "gopls",
+            },
             handlers = {
                 lsp.default_setup,
                 pyright = function()
