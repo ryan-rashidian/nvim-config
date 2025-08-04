@@ -33,7 +33,6 @@ return {
                 "html",
                 "cssls",
                 "emmet_ls",
-                "gopls",
             },
             handlers = {
                 lsp.default_setup,
