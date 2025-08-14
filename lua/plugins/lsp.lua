@@ -89,6 +89,12 @@ return {
                 { name = 'nvim_lsp' },
                 { name = 'luasnip' },
             },
+            view = {
+            entries = { name = 'custom', selection_order = 'near_cursor' }
+            },
+            performance = {
+                max_view_entries = 5
+            },
         })
     end,
 }
