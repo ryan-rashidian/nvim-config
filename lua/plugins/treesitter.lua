@@ -7,6 +7,8 @@ return {
       ensure_installed = {
         "lua",
         "bash",
+        "c",
+        "cpp",
         "python",
         "javascript",
         "html",
