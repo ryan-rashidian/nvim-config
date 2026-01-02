@@ -32,7 +32,7 @@ return {
                 "lua_ls",
                 "html",
                 "cssls",
-                "emmet_ls",
+                "dockerls",
             },
             handlers = {
                 lsp.default_setup,

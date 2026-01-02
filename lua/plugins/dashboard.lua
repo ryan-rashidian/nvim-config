@@ -8,28 +8,15 @@ return {
 
         -- Set custom header
         dashboard.section.header.val = {
-            "     QQQQQQQQQ    EEEEEEEEEEEEEEEEEEEEEMMMMMMMM               MMMMMMMYYYYYYY       YYYYYYY",
-            "   QQ:::::::::QQ  E::::::::::::::::::::M:::::::M             M:::::::Y:::::Y       Y:::::Y",
-            " QQ:::::::::::::QQE::::::::::::::::::::M::::::::M           M::::::::Y:::::Y       Y:::::Y",
-            "Q:::::::QQQ:::::::EE::::::EEEEEEEEE::::M:::::::::M         M:::::::::Y::::::Y     Y::::::Y",
-            "Q::::::O   Q::::::Q E:::::E       EEEEEM::::::::::M       M::::::::::YYY:::::Y   Y:::::YYY",
-            "Q:::::O     Q:::::Q E:::::E            M:::::::::::M     M:::::::::::M  Y:::::Y Y:::::Y   ",
-            "Q:::::O     Q:::::Q E::::::EEEEEEEEEE  M:::::::M::::M   M::::M:::::::M   Y:::::Y:::::Y    ",    
-            "Q:::::O     Q:::::Q E:::::::::::::::E  M::::::M M::::M M::::M M::::::M    Y:::::::::Y     ",     
-            "Q:::::O     Q:::::Q E:::::::::::::::E  M::::::M  M::::M::::M  M::::::M     Y:::::::Y      ",      
-            "Q:::::O     Q:::::Q E::::::EEEEEEEEEE  M::::::M   M:::::::M   M::::::M      Y:::::Y       ",       
-            "Q:::::O  QQQQ:::::Q E:::::E            M::::::M    M:::::M    M::::::M      Y:::::Y       ",       
-            "Q::::::O Q::::::::Q E:::::E       EEEEEM::::::M     MMMMM     M::::::M      Y:::::Y       ",       
-            "Q:::::::QQ::::::::EE::::::EEEEEEEE:::::M::::::M               M::::::M      Y:::::Y       ",       
-            " QQ::::::::::::::QE::::::::::::::::::::M::::::M               M::::::M   YYYY:::::YYYY    ",    
-            "   QQ:::::::::::Q E::::::::::::::::::::M::::::M               M::::::M   Y:::::::::::Y    ",    
-            "     QQQQQQQQ::::QEEEEEEEEEEEEEEEEEEEEEMMMMMMMM               MMMMMMMM   YYYYYYYYYYYYY    ",    
-            "             Q:::::Q                                                                      ",                                                                      
-            "              QQQQQQ                                                                      ",                                                                      
+           "  _           __ _               ",
+           " (_) ___ ___ / _| |_      ___ __ ",
+           " | |/ __/ _ \\ |_| \\ \\ /\\ / / '__|",
+           " | | (_|  __/  _| |\\ V  V /| |   ",
+           " |_|\\___\\___|_| |_| \\_/\\_/ |_|   "
         }
 
         -- Set custom footer
-        dashboard.section.footer.val = "QEMY: Custom Neovim Text Editor"
+        dashboard.section.footer.val = "Neovim Text Editor"
 
         -- Set custom button section
         dashboard.section.buttons.val = {
